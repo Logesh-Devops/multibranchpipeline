@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh "mvn --version"
                 sh "java -version"
-                echo "Test Server"
+                echo "suriya Server"
             }
         }
         stage("Checkout Code") {
